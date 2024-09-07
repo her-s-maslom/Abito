@@ -1,0 +1,41 @@
+.header {
+  padding-block: 30px 24px;
+}
+
+.header__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+
+.header__logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+}
+
+.header__logo-name {
+  line-height: 28px;
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 6px;
+  color: rgb(10, 20, 58);
+}
+
+.header__burger {
+  width: 30px;
+  height: 15px;
+  display: none;
+}
+
+@media (max-width: 786px) {
+  .header__burger {
+    display: block;
+  }
+
+  .header__controls {
+    display: none;
+  }
+}
